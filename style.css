@@ -1,0 +1,36 @@
+body {
+  background-color: #e6f0ff;
+  font-family: Arial, sans-serif;
+  color: #222;
+  text-align: center;
+  margin-top: 100px;
+}
+
+h1 {
+  color: #0044cc;
+}
+
+p {
+  font-size: 20px;
+}
+img {
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+  width: 300px;
+  max-width: 80%;
+  height: auto;
+}
+.btn {
+  background-color: #0044cc;   /* button color */
+  color: white;                /* text color */
+  padding: 12px 25px;          /* size of the button */
+  text-decoration: none;       /* removes underline */
+  border-radius: 8px;          /* rounded corners */
+  display: inline-block;       /* keeps shape */
+  transition: background-color 0.3s; /* smooth hover effect */
+}
+
+.btn:hover {
+  background-color: #0033a0;   /* darker color when hovered */
+}
